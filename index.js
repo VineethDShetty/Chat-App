@@ -58,7 +58,7 @@
 
 
 
-    const port=9000||process.env.port;
+    const port=process.env.port || 9000;
 
 
     server.listen(port,()=>console.log(`server connected to port ${port}`))
